@@ -1,0 +1,36 @@
+{
+  "name": "any-door",
+  "version": "0.0.1",
+  "description": "tiny nodejs web server",
+  "main": "build/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reaper622/Any-Door.git"
+  },
+  "keywords": [
+    "static",
+    "webserver"
+  ],
+  "author": "Reaper Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Reaper622/Any-Door/issues"
+  },
+  "homepage": "https://github.com/Reaper622/Any-Door#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.3.0",
+    "pre-commit": "^1.2.2"
+  },
+  "dependencies": {
+    "handlebars": "^4.2.0"
+  }
+}
