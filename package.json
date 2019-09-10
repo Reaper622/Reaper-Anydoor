@@ -1,8 +1,11 @@
 {
   "name": "any-door",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "tiny nodejs web server",
-  "main": "build/index.js",
+  "main": "src/app.js",
+  "bin": {
+      "any-door": "bin/any-door"
+  },
   "scripts": {
     "lint": "eslint .",
     "fix": "eslint --fix ."
@@ -31,6 +34,7 @@
     "pre-commit": "^1.2.2"
   },
   "dependencies": {
-    "handlebars": "^4.2.0"
+    "handlebars": "^4.2.0",
+    "yargs": "^14.0.0"
   }
 }
